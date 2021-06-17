@@ -1,0 +1,34 @@
+------------------------------------------Top 5 awesome logo hover effect-----------------------------
+
+
+----------------Effect 1--------------------------
+
+<div class="demo" style="clear: both;"><img border="0" data-original-height="64" data-original-width="82" src="" /></div>
+
+<style>
+  .demo img:hover{animation:rotating 3s linear infinite}@keyframes rotating{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+</style>
+
+
+---------------Effect 2--------------
+<style>
+ img:hover{animation:heart 1.25s linear infinite}@keyframes heart{from{transform:scale(1)}10%{transform:scale(1.2)}}
+</style>
+
+--------------Effect 3 -------------------
+
+<style>
+ img:hover{animation:rubberBand 1.2s ease}@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+</style>
+
+--------------------Effect 4----------------
+
+<style>
+img:hover {-webkit-animation:ripple 0.65s linear;-moz-animation:ripple 0.65s linear;-ms-animation:ripple 0.65s linear;-o-animation:ripple 0.65s linear;animation:ripple 0.65s linear}@keyframes ripple{100%{opacity:0;transform:scale(1.5)}}
+</style>
+
+-------------------Effect 5--------------
+
+<style>
+ img:hover { -webkit-animation:hue 1s linear infinite;}@-webkit-keyframes hue { 100% { -webkit-filter:hue-rotate(360deg); } } 
+</style>
